@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b875ef82-6b5d-4782-bf5a-b329150a639e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/configserver/src/main/java/com/hms/configserver/ConfigServerApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/configserver/src/main/resources/bootstrap.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apigateway/apigateway.iml" afterPath="$PROJECT_DIR$/apigateway/apigateway.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apigateway/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/apigateway/target/classes/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apigateway/target/classes/META-INF/maven/com.hms/apigateway/pom.properties" afterPath="$PROJECT_DIR$/apigateway/target/classes/META-INF/maven/com.hms/apigateway/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configserver/.classpath" afterPath="$PROJECT_DIR$/configserver/.classpath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configserver/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/configserver/.settings/org.eclipse.core.resources.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configserver/configserver.iml" afterPath="$PROJECT_DIR$/configserver/configserver.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configserver/pom.xml" afterPath="$PROJECT_DIR$/configserver/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configserver/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/configserver/target/classes/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configserver/target/classes/META-INF/maven/com.hms/configserver/pom.properties" afterPath="$PROJECT_DIR$/configserver/target/classes/META-INF/maven/com.hms/configserver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configserver/target/classes/META-INF/maven/com.hms/configserver/pom.xml" afterPath="$PROJECT_DIR$/configserver/target/classes/META-INF/maven/com.hms/configserver/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/eureka/target/classes/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka/target/classes/META-INF/maven/com.hms/eureka/pom.properties" afterPath="$PROJECT_DIR$/eureka/target/classes/META-INF/maven/com.hms/eureka/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hystrixdashboard/hystrixdashboard.iml" afterPath="$PROJECT_DIR$/hystrixdashboard/hystrixdashboard.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hystrixdashboard/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/hystrixdashboard/target/classes/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hystrixdashboard/target/classes/META-INF/maven/com.hms/hystrixdashboard/pom.properties" afterPath="$PROJECT_DIR$/hystrixdashboard/target/classes/META-INF/maven/com.hms/hystrixdashboard/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hystrixturbine/hystrixturbine.iml" afterPath="$PROJECT_DIR$/hystrixturbine/hystrixturbine.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hystrixturbine/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/hystrixturbine/target/classes/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hystrixturbine/target/classes/META-INF/maven/com.hms/hystrixturbine/pom.properties" afterPath="$PROJECT_DIR$/hystrixturbine/target/classes/META-INF/maven/com.hms/hystrixturbine/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/inventory/target/classes/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/classes/META-INF/maven/com.hms/inventory/pom.properties" afterPath="$PROJECT_DIR$/inventory/target/classes/META-INF/maven/com.hms/inventory/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/login.iml" afterPath="$PROJECT_DIR$/login/login.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/login/target/classes/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/target/classes/META-INF/maven/com.hms/login/pom.properties" afterPath="$PROJECT_DIR$/login/target/classes/META-INF/maven/com.hms/login/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registration/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/registration/target/classes/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registration/target/classes/META-INF/maven/com.hms/registration/pom.properties" afterPath="$PROJECT_DIR$/registration/target/classes/META-INF/maven/com.hms/registration/pom.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -173,8 +143,8 @@
         <option value="$PROJECT_DIR$/apigateway/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/hystrixdashboard/pom.xml" />
         <option value="$PROJECT_DIR$/configserver/src/main/java/com/hms/configserver/ConfigServerApplication.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/configserver/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -564,9 +534,9 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25274727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -611,6 +581,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -867,8 +841,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>

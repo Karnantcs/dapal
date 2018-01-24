@@ -3,7 +3,7 @@ Implementation-Title: apigateway
 Implementation-Version: 1.0-SNAPSHOT
 Built-By: samii
 Implementation-Vendor-Id: com.hms
-Build-Jdk: 1.8.0_101
+Build-Jdk: 1.8.0_131
 Implementation-URL: http://projects.spring.io/spring-boot/dapal/apigat
  eway/
 Created-By: Maven Integration for Eclipse

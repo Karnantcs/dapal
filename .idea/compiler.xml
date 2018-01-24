@@ -9,6 +9,7 @@
         <module name="apigateway" />
         <module name="configserver" />
         <module name="eureka" />
+        <module name="hystrixdashboard" />
         <module name="hystrixturbine" />
         <module name="inventory" />
         <module name="login" />
@@ -20,6 +21,7 @@
       <module name="configserver" target="1.8" />
       <module name="dapal" target="1.8" />
       <module name="eureka" target="1.8" />
+      <module name="hystrixdashboard" target="1.8" />
       <module name="hystrixturbine" target="1.8" />
       <module name="inventory" target="1.8" />
       <module name="login" target="1.8" />

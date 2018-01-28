@@ -13,6 +13,8 @@ import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 @RestController
 public class LoginController {
 	
+	@Autowired Application application;
+	
 	@LoadBalanced
 	@Bean
 	public RestTemplate restTemplate(RestTemplateBuilder builder) {
@@ -24,6 +26,7 @@ public class LoginController {
 	@HystrixCommand(fallbackMethod="logMeInFallback")
 	@RequestMapping("/login")
 	public String logMeIn() {
+		System.out.println(" Application Id :"+ application.getApplicationId());
 		int count = restTemplate.getForObject("http://inventory/count", Integer.class);
 		return count+"";
 	}

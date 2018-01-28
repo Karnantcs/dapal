@@ -6,3 +6,4 @@ login/*
 */.classpath
 */.settings
 /.idea/
+*/target/

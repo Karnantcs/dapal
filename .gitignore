@@ -3,6 +3,7 @@
 login/*
 *.iml
 */.project
+*/.project/*
 */.classpath
 */.settings
 /.idea/

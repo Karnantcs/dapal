@@ -1,0 +1,54 @@
+---
+applications:
+  - name: configserver
+    path: ./configserver/target/configserver-1.0-SNAPSHOT.jar
+    instances: 1
+    buildpack: https://github.com/cloudfoundry/java-buildpack.git
+    memory: 256M
+    env:
+      JAVA_OPTS: '-XX:MaxMetaspaceSize=80780K -Xss512k -Xmx200M -XX:ReservedCodeCacheSize=16M -XX:MaxDirectMemorySize=16M'
+      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 1.8.0_212 } }'
+    routes:
+      - route: configserver.dev.cfdev.sh
+
+  - name: eureka
+    path: ./eureka/target/eureka-1.0-SNAPSHOT.jar
+    buildpack: https://github.com/cloudfoundry/java-buildpack.git
+    memory: 256M
+    env:
+      JAVA_OPTS: '-XX:MaxMetaspaceSize=80780K -Xss512k -Xmx200M -XX:ReservedCodeCacheSize=16M -XX:MaxDirectMemorySize=16M'
+      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 1.8.0_212 } }'
+    routes:
+      - route: eureka.dev.cfdev.sh
+
+  - name: apigateway
+    path: ./apigateway/target/apigateway-1.0-SNAPSHOT.jar
+    buildpack: https://github.com/cloudfoundry/java-buildpack.git
+    memory: 256M
+    env:
+      JAVA_OPTS: '-XX:MaxMetaspaceSize=80780K -Xss512k -Xmx200M -XX:ReservedCodeCacheSize=16M -XX:MaxDirectMemorySize=16M'
+      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 1.8.0_212 } }'
+    routes:
+      - route: apigateway.dev.cfdev.sh
+
+#  - name: hystrixdashboard
+#    path: ./hystrixdashboard/target/hystrixdashboard-1.0-SNAPSHOT.jar
+#    memory: 1G
+#    routes:
+#      - route: hystrixdashboard.dev.cfdev.sh
+
+  - name: inventory
+    path: ./inventory/target/inventory-1.0-SNAPSHOT.jar
+    buildpack: https://github.com/cloudfoundry/java-buildpack.git
+    memory: 256M
+    env:
+      JAVA_OPTS: '-XX:MaxMetaspaceSize=80780K -Xss512k -Xmx200M -XX:ReservedCodeCacheSize=16M -XX:MaxDirectMemorySize=16M'
+      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 1.8.0_212 } }'
+
+  - name: registration
+    path: ./registration/target/registration-1.0-SNAPSHOT.jar
+    buildpack: https://github.com/cloudfoundry/java-buildpack.git
+    memory: 256M
+    env:
+      JAVA_OPTS: '-XX:MaxMetaspaceSize=80780K -Xss512k -Xmx200M -XX:ReservedCodeCacheSize=16M -XX:MaxDirectMemorySize=16M'
+      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 1.8.0_212 } }'

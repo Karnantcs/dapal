@@ -1,0 +1,6 @@
+applications:
+- name: histrixdashboard
+  memory: 256M
+  path: target/hystrixdashboard-1.0-SNAPSHOT.jar
+  routes:
+    - route: histrixdashboard.local.pcfdev.io

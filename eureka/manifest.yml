@@ -1,0 +1,5 @@
+applications:
+- name: eureka
+  memory: 512M
+  random-route: true
+  path: target/eureka-1.0-SNAPSHOT.jar

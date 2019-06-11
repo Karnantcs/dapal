@@ -26,7 +26,7 @@ public class RegistrationController {
 	@HystrixCommand(fallbackMethod="registerUserFallBack")
 	@RequestMapping("/register")
 	public String registerUser() {
-		String inventory = restTemplate.getForObject("http://inventory/list", String.class);
+		String inventory = restTemplate.getForObject("http://inventory/count", String.class);
 		return inventory;
 	}
 	

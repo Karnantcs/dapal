@@ -1,0 +1,5 @@
+applications:
+- name: apigateway
+  memory: 256M
+  random-route: true
+  path: target/apigateway-1.0-SNAPSHOT.jar

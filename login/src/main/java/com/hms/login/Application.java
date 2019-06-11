@@ -4,17 +4,19 @@ import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
+import java.util.Random;
+
 @Component
 @Scope(value=ConfigurableBeanFactory.SCOPE_SINGLETON)
 public class Application {
 	
-	private String applicationId= "2";
+	public static int applicationId= new Random().nextInt();
 	private String applicationName = "Login Application";
 	
-	public String getApplicationId() {
+	public int getApplicationId() {
 		return applicationId;
 	}
-	public void setApplicationId(String applicationId) {
+	public void setApplicationId(int applicationId) {
 		this.applicationId = applicationId;
 	}
 	public String getApplicationName() {
